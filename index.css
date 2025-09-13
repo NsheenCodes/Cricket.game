@@ -26,3 +26,12 @@
             transform: scale();
 
         }
+       .choice-image{
+            height: 80px;
+       }
+      .reset-button{
+         height:  35px  ;
+          width:  80px ;
+       
+      }
+

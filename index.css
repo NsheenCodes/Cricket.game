@@ -18,8 +18,11 @@
             background: #f1ae48;
             font-size: 1.2rem;
             margin: 8px;
+            height: 130px;
+            width: 130px
         }
         button:hover{
             background: #df8f16;
             transform: scale();
+
         }

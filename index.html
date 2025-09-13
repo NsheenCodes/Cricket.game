@@ -10,23 +10,23 @@
   let computerChoice = generateComputerChoice();
   let resultMsg = getResult('Bat', computerChoice);
   showResult('Bat', computerChoice, resultMsg);
-  "><img src="images/bat.png" alt="Bat image" height="50px"></button>
+  "><img src="images/bat.png" alt="Bat image" height="50px" class="choice-image"></button>
 
   <button onclick="
     computerChoice = generateComputerChoice();
     resultMsg = getResult('Ball', computerChoice);
     showResult('Ball', computerChoice, resultMsg);
-  "><img src="images/ball.png" alt="Ball image" height="50px" ></button>
+  "><img src="images/ball.png" alt="Ball image" height="50px" class="choice-image"></button>
 
   <button onclick="
     computerChoice = generateComputerChoice();
     resultMsg = getResult('Stump', computerChoice);
     showResult('Stump', computerChoice, resultMsg);
-  "><img src="images/stump.png" alt=" Stump image" height="50px"></button><br><br>
+  "><img src="images/stump.png" alt=" Stump image" height="50px" class="choice-image"></button><br><br>
 
   <button onclick="localStorage.clear() 
     resetScore();
-  "> Reset </button>
+  "  class="reset-button"> Reset </button>
    <script>
     let scoreStr = localStorage.getItem('Score');
     let score;
@@ -110,4 +110,5 @@
   </script>
     
 </body>
+
 </html>
